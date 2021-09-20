@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2bf499fd-0567-4808-91fb-472d38db6160",
+		"name": "meli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/muntant/v1/ismutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"dnaList\": [\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/muntant/v1/ismutant",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"muntant",
+						"v1",
+						"ismutant"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
