@@ -9,6 +9,7 @@ import java.util.List;
 @ToString
 @EqualsAndHashCode
 @AllArgsConstructor
+@NoArgsConstructor
 public class Dna {
 
     private List<String> dnaList;
