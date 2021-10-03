@@ -33,6 +33,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "localhost:8080/muntant/v1/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/muntant/v1/stats",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"muntant",
+						"v1",
+						"stats"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
