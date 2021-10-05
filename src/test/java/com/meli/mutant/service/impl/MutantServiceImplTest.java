@@ -17,8 +17,7 @@ import org.mockito.Mock;
 @ExtendWith(MockitoExtension.class)
 class MutantServiceImplTest {
 
-    @Mock
-    CheckMatrixService checkMatrixService;
+    @Mock CheckMatrixService checkMatrixService;
 
     MutantServiceImpl mutantService;
 
