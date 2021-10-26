@@ -1,5 +1,6 @@
 package com.meli.mutant.models;
 
+import com.meli.mutant.data.entity.BaseEntity;
 import lombok.*;
 
 import javax.persistence.*;
@@ -11,7 +12,7 @@ import java.io.Serializable;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-public class Stats implements Serializable {
+public class Stats extends BaseEntity implements Serializable {
 
     private int countMutantDna;
     private int countHumanDna;
