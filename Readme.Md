@@ -1,4 +1,4 @@
-# REST API Mutant
+# REST API Mutant (JOHN CAMILO BENITEZ ALEMAN)
 
 Aplicacion para probar si un ADN es mutante o no
 
